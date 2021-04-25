@@ -1,0 +1,107 @@
+/* styles.css */
+
+* {
+  font-family:verdana,sans-serif;
+  font-size  :11pt;
+}
+
+body {
+  width     :100px;
+  margin    :20px auto;
+  background:#f8f8f8;
+  border    :1px solid rgb(14, 196, 23);
+}
+
+html {
+  background:#fff
+}
+
+
+
+.wrapper{
+            width: 800px;
+            margin: 0 auto;
+        }
+		
+.page-header h2{
+	margin-top: 0;
+  }
+		
+.username {
+  text-align :center;
+  background: #5F9EA0;
+  color      :#f8f8f8;
+  text-shadow: 2px 2px black;
+  font-family:helvetica;
+  font-size  :20pt;
+  padding    :4px;
+}
+
+.info {
+  font-style :italic;
+  margin     :40px 0px;
+  text-align :center;
+}
+
+.center {
+  text-align:center;
+}
+
+.subhead {
+  font-weight:bold;
+}
+/*error color*/
+.taken, .error {
+  color:red;
+}
+
+.error
+{
+  color: red;
+}
+.available {
+  color:green;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+/*Styling table*/
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+  }
+  /*Styling table header*/
+  th{
+	color:rgb(255, 255, 255);
+	background: #5F9EA0;
+	width:0px auto;
+  height: 50px;
+  text-shadow: 2px 2px black;
+	text-align:center;
+	font-size: larger;
+   }
+   /*Styling table rows*/
+   td {
+	height: 50px;
+	text-align:left;
+   }
+/*Styling System hearder*/
+#logo {
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-style :oblique;
+  font-size  :35px;
+  color      :white;
+  }
+  .next {
+    margin-left: auto;
+  	margin-right: auto;
+    
+  }
+/*Used name*/
+#used {
+  margin-top:50px;
+}
